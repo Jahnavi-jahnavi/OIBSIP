@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#indexpage{
+    background-image: url("./tempconvtimages/clouds.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.container{
+    position: relative;
+}
+.coverpage{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 375px;
+    left: 475px;
+}
+.coverpage h1 {
+    font-size: 50px;
+    color: white;
+    padding :  20px 20px 30px 20px;
+}
+
+p{
+    font-size:25px;
+    color: white;
+    padding: 10px;
+}
+.link{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 25px;
+    color: white;
+    background-color: #00BFFF;
+    border: 3px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 5px;
+        
+}
+#mainpage{
+    margin:0;
+    background-color: #00BFFF; 
+    background-image: linear-gradient(to bottom, #00BFFF, white);
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+   
+}
+.converter{
+    position: relative;
+}
+.tmp-convt{
+    position: absolute;
+} 
+.tmp-convt h1{
+    position: relative;
+    font-size: 50px;
+    left: 500px;
+    text-align: center;
+    color:white;
+    top: 150px;  
+}
+.img{
+    position: absolute;
+    margin: 60px;
+    top: 250px;
+    left: 970px;
+    height: 300px;
+    width: 300px;
+    border-radius: 170px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.3));
+}
+form{
+    position: absolute;
+    font-size: 23px;
+    top: 300px;
+    left: 150px;
+    width: 500px;
+    height: 550px;
+    padding-left: 60px;
+    background-color: white;
+    box-shadow: 40px 40px #00BFFF;
+}
+.card-title {
+    padding: 90px 10px 20px 0;
+    float: left;
+    font-size:23px;
+}
+.row-px-2, .row-px-3, .row-px-4 {
+    padding: 10px 0 7px 0;
+}
+.input {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-size: 23px;
+    margin-left: 10px;
+    padding: 15px 0  7px 17px;
+   
+}
+.input-append{
+    display: inline-block;
+    width: 70px;
+    height: 55px;
+    padding: 15px 0 5px 0;
+}
+.converttype {
+    position: absolute;
+    top: 200px;
+    font-size: 23px;
+    padding: 0 0  30px 0;
+    
+}
+#conversiontype{
+    width: 350px;
+    height: 32px;
+}
+.result{
+    position: absolute;
+    top: 260px;
+    padding: 20px 0 20px 0;
+}
+#output {
+    height:50px;
+}
+.type {
+    width:350px;
+    height:30px;
+    font-size: 17px;
+}
+.formtype{
+    font-size: 17px;
+    width: 60px;
+    height:32px;
+
+}
+.btn {
+    
+    background-color: white;
+    font-size: 17px;
+    padding: 7px 10px 10px 10px;
+    margin: 25px 0 0 30px;
+    box-shadow: 10px 10px  #00BFFF;
+    border-radius: 30px;
+    border: 2px solid;
+} 
+.btn1 {
+    
+    background-color: white;
+    font-size: 17px;
+    padding: 7px 10px 10px 10px;
+    margin: 25px 0 0 100px;
+    box-shadow: 8px 8px  #00BFFF;
+    border-radius: 30px;
+    border: 2px solid;
+} 

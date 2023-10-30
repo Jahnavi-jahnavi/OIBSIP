@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title> 
+    <link rel="stylesheet" href="./tempconvt.css">
+</head>
+<body id="mainpage">
+    <div class="Converter">
+        <div class="tmp-convt">
+            <h1>Temperature Converter</h1>
+            <img  class="img" src="./tempconvtimages/tc1.jpg" alt="tmp-measure">
+            <form>
+                <div class="tmpt-form">
+                    <span class="card-title">Enter Temperature</span>
+                    <div class="row-px-2">
+                        <label for="degreeinput" class="input">Degree</label>
+                        <div class="input-group">
+                           <input type="number" class="type" id="inputdegree" placeholder="Enter Degree">
+                           <div class="input-append">
+                               <select class="formtype" id="inputtype">
+                                 <option value="C" selected>&deg;C</option>
+                                 <option value="F">&deg;F</option>
+                                 <option value="K">&deg;K</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row-px-3">
+                          <label for="coversion-in" class="converttype">Convert Type</label>
+                          <div class="input-inline-block">
+                             <div class="input-append">
+                                 <select class="formtype" id="conversiontype">
+                                     <option value="F" selected>Fahrenheit (&deg;F)</option>
+                                     <option value="C">Celsius (&deg;C)</option>
+                                     <option value="K">Kelvin (&deg;K)</option>
+                                 </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-px-4">
+                           <label for="result" class="result"> Result</label>
+                           <div class="output">
+                              <input type="number-in-degrees" class="type" id="output" placeholder="Result">
+                            </div>
+                           <button type="submit"  class="btn">Convert <img class="svg" src="./tempconvtimages/arrow-down-circle-fill.svg"></button>
+                           <button type="reset"  class="btn1">Reset </button>
+                           
+                        </div> 
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./tempconvt.js"></script>
+</body>
+</html>
